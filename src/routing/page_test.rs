@@ -1,4 +1,5 @@
 use dioxus::prelude::*;
+use icons::Check;
 
 use crate::components::demos::demo_tags_animated::DemoTagsAnimated;
 
@@ -9,6 +10,8 @@ pub fn PageTest() -> Element {
             h1 { "Test Page" }
 
             DemoTagsAnimated {}
+
+            Check { class: "text-red-500" }
         }
     }
 }

@@ -1,7 +1,7 @@
 [package]
 name = "dioxus_ui_labs"
 version = "0.1.0"
-authors = ["Max Wells <maxwells.pro@proton.me>"]
+authors = ["Rustify"]
 edition = "2024"
 
 
@@ -9,6 +9,7 @@ edition = "2024"
 dioxus = { version = "0.6", features = ["router"] }
 tw_merge = { version = "0.1", features = ["variant", "debug"] }
 dioxus_ui = { path = "crates/dioxus_ui" }
+icons = { version = "0.2", features = ["dioxus"] }
 
 
 [features]
