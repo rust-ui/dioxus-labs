@@ -9,7 +9,7 @@ edition = "2024"
 dioxus = { version = "0.6", features = ["router"] }
 tw_merge = { version = "0.1", features = ["variant", "debug"] }
 dioxus_ui = { path = "crates/dioxus_ui" }
-icons = { version = "0.2", features = ["dioxus"] }
+icons = { version = "0.5", features = ["dioxus"] }
 
 
 [features]
