@@ -1,14 +1,6 @@
 # Run the project
 
-## 1. Run Tailwind
-
-```bash
-pnpm install
-
-npx @tailwindcss/cli -i ./style/input.css -o ./style/output.css --watch
-```
-
-## 2. Run Dioxus
+## Run Dioxus
 
 ```bash
 dx serve

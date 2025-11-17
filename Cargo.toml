@@ -8,8 +8,8 @@ edition = "2024"
 [dependencies]
 dioxus_ui = { path = "crates/dioxus_ui" }
 
-dioxus = { version = "0.6", features = ["router"] }
-icons = { version = "0.7.1", features = ["dioxus"] }
+dioxus = { version = "0.7", features = ["router"] }
+icons = { version = "0.18", features = ["dioxus"] }
 tw_merge = { version = "0.1", features = ["variant", "debug"] }
 
 
